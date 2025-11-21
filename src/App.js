@@ -1,10 +1,12 @@
 // import image from '../public/blog 3.jpg.jpg';
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <div class="frontimage">
+      <Navbar />
+     {/* <div class="frontimage">
         <div class="Header">
           <div class="logo"></div>
           <div class="navigation">
@@ -46,7 +48,7 @@ function App() {
         <div class="c1"></div>
         <div class="c2"></div>
       </div>
-
+ */}
 
     </div>
   )
